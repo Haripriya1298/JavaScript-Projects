@@ -1,0 +1,30 @@
+.container img{
+    height:50px;
+    width:150px;
+    margin-top:10px;
+}
+#btn{
+    margin:0px 50px;
+    background-color:navy;
+    height:50px;
+    width:150px;
+    border-radius:10px;
+    
+}
+#btn1{
+    background-color:navy;
+    height:50px;
+    width:150px;
+    border-radius:10px;
+}
+#btn1 a{
+    text-decoration: none;
+    color:white;
+    font-size: larger;
+}
+#btn {
+    text-decoration: none;
+    color:white;
+    font-size: larger;
+}
+

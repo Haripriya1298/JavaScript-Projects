@@ -1,0 +1,143 @@
+
+header{
+    display:flex;
+    justify-content: space-between;
+}
+.products{
+    display:flex;
+    justify-content: space-around;
+    height:750px;
+    width:100%;
+    text-align: center;
+    align-items: center;
+    border:2px solid grey; 
+    position:relative;
+   
+}
+.btn{
+    margin:20px;
+    padding:10px;
+    border:2px solid black;
+    color:white;
+    background-color: navy;
+    font-size: large;
+    border-radius: 9px;
+}
+select {
+ font-size: large;
+}
+label{
+    font-size: larger;
+}
+.cart{
+    height:750px;
+    width:24%;
+    border:2px solid black; 
+    position:fixed;
+    left: 100%;
+    top:9%;
+   background-color:antiquewhite;
+}
+
+h1{
+    margin:0px;
+    text-align: center;
+    padding:18px;
+    border-bottom: 2px solid black;
+    background-color: orangered;
+    color:white;    
+}
+.shoppingBasket{
+    margin-top:20px;
+}
+
+.price{
+    font-size: larger;
+}
+.name{
+    margin:10px;
+    padding:10px;
+    font-size: x-large;
+}
+.cart .checkout{
+    position:absolute;
+    bottom:0;
+    width:100%;
+    display:grid;
+    grid-template-columns: (2,1fr);
+  
+}
+.cart .checkout div{
+    width:100%;
+    height:70px;
+    display:flex;
+    align-items: center;
+    justify-content:center;
+    font-weight: bold;
+    cursor: pointer;
+    background-color:burlywood;
+}
+.cart .checkout .close{
+    margin-left:95px;
+    font-size:larger;
+    background-color: orangered ;
+    color:white;
+
+}
+.active .cart{
+   left:calc(100% - 400px);
+}
+
+.fa-star{
+    color:#ff9c1a;
+}
+.productsList{
+    padding:15px;
+    height:auto;
+}
+.productsList li{
+    list-style-type: none;
+    color:black;
+    display: grid;
+    grid-template-columns: 100px repeat(3,1fr);
+    row-gap:5px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid black;
+
+}
+.productsList li img{
+    width:80px;
+}
+.productsList div{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.productsList li button{
+    width:25px;
+    height:25px;
+    border-radius: 50%;
+    border: none;
+    outline:none ;
+    margin-left:10px;
+    margin-right:10px;
+    background-color:black;
+    color:white;
+}
+small{
+     margin-left:20px; font-size:large;
+}
+
+@media screen and (min-width:425px) and (max-width:767px) {
+    .products{
+        display:block;
+        padding-top:20px;
+        height:auto;
+        position:relative;
+    }
+    .cart{
+        height:auto;
+        width:80%;
+        margin-top:40px;
+    }
+}

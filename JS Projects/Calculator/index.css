@@ -1,0 +1,36 @@
+table{
+    border:2px solid black;
+    transform:translate(125%,3%);
+    justify-content: center;
+    width:200px;
+    cursor:pointer;
+}
+#result{
+    width:96%;
+    height:80px;
+    font-size:50px;
+    color:white;
+    background-color: black; 
+}
+table td button{
+    font-size:30px;
+    width:80px;
+    height:60px;
+    background-color: white;
+    border:1px solid black;
+}
+.spl{
+    background-color:orangered;
+    width:80px;
+    height:60px;
+}
+#del{
+    background-color: dodgerblue;
+    width:80px;
+    height:85px;
+ 
+}
+.tab{
+    margin-left:15%;
+}
+
